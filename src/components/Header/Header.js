@@ -4,12 +4,20 @@ import {
   UserAvatar,
   UserAdress,
   Cupon,
+  UserAvatarButton,
 } from './Header.styles';
 
-const Header = () => {
+const Header = (props) => {
+
+  const handleUserAvatarPressed = () => {
+    props.navigation.openDrawer();
+  };
+
   return (
     <HeaderContainer>
-      <UserAvatar />
+      <UserAvatarButton onPress={handleUserAvatarPressed}>
+        <UserAvatar />
+      </UserAvatarButton>
       <UserAdress>Cll 26 # 45 - 67</UserAdress>
       <Cupon>Cupon</Cupon>
     </HeaderContainer>

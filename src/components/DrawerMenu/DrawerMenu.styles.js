@@ -26,6 +26,7 @@ export const Greeting = styled.Text`
 
 export const PersonName = styled.Text`
   font-size: 35px;
+  font-weight: bold;
 `;
 
 export const Logo = styled.View`
@@ -39,6 +40,8 @@ export const Logo = styled.View`
 
 export const QuickMenuContainer = styled.View`
   padding: 0 10px;
+  margin: 0 0 20px;
+  elevation: 3;
 `;
 
 export const QuickMenuContent = styled.View`
@@ -95,7 +98,7 @@ export const MenuTitle = styled.Text`
 `;
 
 export const MenuItem = styled.View`
-  padding: 20px 0;
+  padding: 20px 20px 20px 0;
   border-bottom-color: #eee;
   border-bottom-width: 1px;
   display: flex;
@@ -104,7 +107,7 @@ export const MenuItem = styled.View`
 `;
 
 export const MenuItemDescription = styled.Text`
-  font-size: 18;
+  font-size: 16px;
   flex: 1;
 `;
 
@@ -117,9 +120,9 @@ export const MenuItemIcon = styled.View`
 `;
 
 export const AppVersion = styled.Text`
-  font-size: 12;
+  font-size: 12px;
   padding: 10px 0 0 10px;
-  color: #555;
+  color: #999;
 `;
 
 export const MenuItemAction = styled.View`

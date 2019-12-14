@@ -39,7 +39,7 @@ export const MainProductImage = styled.View`
   position: absolute;
   right: 0;
   border-radius: 50px;
-  background-color: #eee;
+  background-color: #fff;
 `;
 
 export const ScrollableSection = styled.View`
@@ -60,8 +60,8 @@ export const SubProductContent = styled.View`
 `;
 
 export const SubProductImage = styled.View`
-  width: 100%;
-  height: 80px;
+  width: 70px;
+  height: 70px;
   border-radius: 10px;
 `;
 

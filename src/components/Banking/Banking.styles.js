@@ -10,6 +10,7 @@ export const BankingContainer = styled.View`
   border: 1px solid #eee;
   margin: 10px 10px;
   border-radius: 10px;
+  background-color: #fff;
 `;
 
 export const BankingPay = styled.View`

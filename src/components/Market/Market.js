@@ -113,6 +113,80 @@ const PAGES = [
       bgColor: '#b0dd5a',
     },
   ],
+  [
+    {
+      id: '1',
+      description: 'Mascotas',
+      bgColor: '#b0dd5a',
+    },
+    {
+      id: '2',
+      description: 'RappiUSA',
+      bgColor: '#ff5c49',
+    },
+    {
+      id: '3',
+      description: 'RappiCracks',
+      bgColor: '#b0dd5a',
+    },
+    {
+      id: '4',
+      description: 'Deportes',
+      bgColor: '#ff5c49',
+    },
+    {
+      id: '5',
+      description: 'Bonos',
+      bgColor: '#ff5c49',
+    },
+    {
+      id: '6',
+      description: 'Juguetería',
+      bgColor: '#b0dd5a',
+    },
+    {
+      id: '7',
+      description: 'Sex Shop',
+      bgColor: '#ff5c49',
+    },
+    {
+      id: '8',
+      description: 'Bebés y Niños',
+      bgColor: '#b0dd5a',
+    },
+  ],
+  [
+    {
+      id: '1',
+      description: 'Vehículos',
+      bgColor: '#b0dd5a',
+    },
+    {
+      id: '2',
+      description: 'IQOS Y HEETS',
+      bgColor: '#ff5c49',
+    },
+    {
+      id: '3',
+      description: 'Fundaciones',
+      bgColor: '#b0dd5a',
+    },
+    {
+      id: '4',
+      description: 'Navidad',
+      bgColor: '#ff5c49',
+    },
+    {
+      id: '5',
+      description: 'Eventos',
+      bgColor: '#ff5c49',
+    },
+    {
+      id: '6',
+      description: 'Recetas',
+      bgColor: '#b0dd5a',
+    },
+  ],
 ];
 
 const { width } = Dimensions.get('window');
@@ -140,9 +214,10 @@ class Market extends React.Component {
           activeDotIndex={activeSlideIndex}
           inactiveDotOpacity={0.4}
           dotStyle={{
-            width: 15,
-            height: 15,
+            width: 10,
+            height: 10,
             borderRadius: 15,
+            backgroundColor: '#aaa',
           }}
         />
       </MarketContainer>

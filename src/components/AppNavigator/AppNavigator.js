@@ -98,7 +98,10 @@ const TabsNavigator = createBottomTabNavigator(
   {
     initialRouteName: 'Home',
     tabBarOptions: {
-      activeBackgroundColor: '#eee',
+      activeBackgroundColor: '#ffebee',
+      style: {
+        height: 80,
+      },
     },
   },
 );
@@ -111,7 +114,7 @@ const DashboardNavigator = createDrawerNavigator(
   },
   {
     headerMode: 'none',
-    drawerWidth: Dimensions.get('window').width - 50,
+    drawerWidth: Dimensions.get('window').width - 40,
     contentComponent: props => <DrawerMenu />,
   },
 );

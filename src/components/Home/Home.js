@@ -5,13 +5,13 @@ import Banking from '../Banking/Banking';
 import Market from '../Market/Market';
 import { SafeAreaView, StatusBar } from 'react-native';
 
-const Home = () => {
+const Home = (props) => {
   return (
     <>
-      <StatusBar barStyle="dark-content" />
+      <StatusBar barStyle="dark-content" backgroundColor="transparent" />
       <SafeAreaView>
         <HomeContainer>
-          <Header />
+          <Header navigation={props.navigation} />
           <Banking />
           <Market />
         </HomeContainer>

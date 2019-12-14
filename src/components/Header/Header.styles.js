@@ -7,6 +7,7 @@ export const HeaderContainer = styled.View`
   border-bottom-color: #eee;
   align-items: center;
   padding: 10px;
+  background-color: #fff;
 `;
 
 export const UserAvatar = styled.View`
@@ -25,3 +26,5 @@ export const UserAdress = styled.Text`
 export const Cupon = styled.Text`
   font-size: 14px;
 `;
+
+export const UserAvatarButton = styled.TouchableOpacity``;
