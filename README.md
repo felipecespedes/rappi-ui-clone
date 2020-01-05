@@ -5,7 +5,7 @@ Educational project on how to recreate the Rappi UI
 
 ```bash
 # clone this repo
-$ git clone https://github.com/felipecespedes/rappi-ui-clone
+$ git clone https://github.com/felipecespedes/rappi-ui-clone.git
 
 # change directory to your app
 $ cd rappi-ui-clone
