@@ -1,4 +1,4 @@
-# Reppi UI Clone
+# Rappi UI Clone
 Educational project on how to recreate the Rappi UI
 
 ## Getting Started
