@@ -1,4 +1,4 @@
-# Roll The Dice
+# Reppi UI Clone
 Educational project on how to recreate the Rappi UI
 
 ## Getting Started
@@ -25,8 +25,8 @@ $ react-native run-ios
 ```
 
 ## Screenshots
-![Screenshot1](/screenshots/home_screen.png "Screenshot1")
-![Screenshot2](/screenshots/drawer_menu.png "Screenshot2")
+![](/screenshots/home_screen.png | width=100)
+![](/screenshots/drawer_menu.png | width=100)
 
 ## Authors
 
