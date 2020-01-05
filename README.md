@@ -25,8 +25,8 @@ $ react-native run-ios
 ```
 
 ## Screenshots
-<img src="https://raw.githubusercontent.com/felipecespedes/rappi-ui-clone/master/screenshots/home_screen.png" width="100">
-<img src="https://raw.githubusercontent.com/felipecespedes/rappi-ui-clone/master/screenshots/drawer_menu.png" width="100">
+<img src="https://raw.githubusercontent.com/felipecespedes/rappi-ui-clone/master/screenshots/home_screen.png" width="300">
+<img src="https://raw.githubusercontent.com/felipecespedes/rappi-ui-clone/master/screenshots/drawer_menu.png" width="300">
 
 ## Authors
 
