@@ -1,5 +1,5 @@
 # Rappi UI Clone
-Educational project on how to recreate the Rappi UI
+Educational project on how to recreate the Rappi UI.
 
 ## Getting Started
 
@@ -32,9 +32,16 @@ $ react-native run-ios
 - Drawer Menu
 <img src="https://raw.githubusercontent.com/felipecespedes/rappi-ui-clone/master/screenshots/drawer_menu.png" width="300">
 
+**Important note:** 
+This is merely an educational project on how to write frontend code and it is not a functional product by any means
+
 ## Authors
 
 * **Felipe Céspedes** - *felipecespedespisso@gmail.com* - [felipecespedes](https://github.com/felipecespedes)
+
+If you found this project helpful and want to sponsor me for creating and sharing more educational open-source projects, please consider buying me a cup of coffee
+
+<a href="https://www.buymeacoffee.com/felipecespedes" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/lato-red.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
 ## License
 
